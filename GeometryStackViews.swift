@@ -110,7 +110,7 @@ public struct GHStack<Content>: View where Content : View {
 @available(iOS 13.0, *)
 @available(OSX 10.15, *)
 @available(watchOS 6.0, *)
-public struct ZHStack<Content>: View where Content : View {
+public struct GZStack<Content>: View where Content : View {
     
     /// Stores the content function builder
     public var content: (GeometryProxy) -> Content
